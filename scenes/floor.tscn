@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://cwr0tjsgleoig"]
+[gd_scene load_steps=5 format=3 uid="uid://cwr0tjsgleoig"]
 
 [ext_resource type="Texture2D" uid="uid://cp6wty10wx3br" path="res://icon.svg" id="1_obx8i"]
 [ext_resource type="Script" path="res://scenes/floor.gd" id="2_0g61u"]
+[ext_resource type="Texture2D" uid="uid://bv5jk31pltros" path="res://UNITY LOGO.png" id="3_d2xgd"]
+[ext_resource type="Texture2D" uid="uid://dptwef6fw5nke" path="res://REALJAVALOGO.png" id="4_irall"]
 
 [node name="Icon" type="Sprite2D"]
 position = Vector2(473, 267)
@@ -12,3 +14,11 @@ script = ExtResource("2_0g61u")
 position = Vector2(274, 103)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("1_obx8i")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+scale = Vector2(0.03, 0.03)
+texture = ExtResource("3_d2xgd")
+
+[node name="Icon3" type="Sprite2D" parent="."]
+scale = Vector2(0.02, 0.02)
+texture = ExtResource("4_irall")
